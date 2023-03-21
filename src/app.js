@@ -17,7 +17,7 @@ const products = JSON.parse(
 
 // Defining The Router
 // Handling PATCH request
-router.patch((req, res) => {
+router.patch('/api/v1/product/:id', (req, res) => {
   try {
     //Write your code here for updating a product
     // 1) Find the user with the specified ID
